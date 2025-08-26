@@ -33,8 +33,8 @@ function AdminPage() {
             <tr key={url._id}>
               <td>{url.longUrl}</td>
               <td>
-                <a href={`http://localhost:5000/${url.shortCode}`} target="_blank" rel="noreferrer" style={{color: "white", textDecoration: "none"}}>
-                  {`http://localhost:5000/${url.shortCode}`}
+                <a href={`https://url-shortener-1-vbox.onrender.com/${url.shortCode}`} target="_blank" rel="noreferrer" style={{color: "white", textDecoration: "none"}}>
+                  {`https://url-shortener-1-vbox.onrender.com/${url.shortCode}`}
                 </a>
               </td>
               <td>{url.clicks}</td>
