@@ -32,7 +32,7 @@ function App() {
         <button type="submit" style={{ height: "36px", borderRadius: "0px 10px 10px 0px", marginLeft:"3px" }}>Shorten</button>
       </form>
       {shortUrl && (
-        <p style={{textDecoration: "none", color:"white"}}>
+        <p style={{ color:"white"}}>
           Short URL: <a href={shortUrl} style={{textDecoration: "none", color:"white"}}>{shortUrl}</a>
         </p>
       )};
