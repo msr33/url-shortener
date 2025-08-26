@@ -33,7 +33,7 @@ function App() {
       </form>
       {shortUrl && (
         <p style={{ color:"white"}}>
-          Short URL: <a href={shortUrl} style={{textDecoration: "none", color:"white"}}>{shortUrl}</a>
+          Short URL: <a href={shortUrl} style={{color:"white"}}>{shortUrl}</a>
         </p>
       )};
 
